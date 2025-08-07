@@ -19,7 +19,7 @@ export default function Home() {
       display: "inline-block",
       verticalAlign: "top",
       textDecoration: "inherit",
-      textWrap: "balance", // ⚠️ optional: browser support limited
+      textWrap: "balance",
       maxWidth: "628px",
     }}
   >
@@ -54,7 +54,7 @@ export default function Home() {
   </div>
   <TrustedBySection />
     
-      
+     
     </>
   );
 }
