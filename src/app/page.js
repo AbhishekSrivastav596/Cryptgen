@@ -7,7 +7,9 @@ import FeaturesSection from "@/components/ui/FeaturesSection";
 import ScrollFadeHeader from "@/components/ui/ScrollFadeHeader";
 import ReviewsSection from "@/components/ui/ReviewsSection";
 import PlanCard from "@/components/ui/PlanCard";
-import FAQSection from "@/components/FAQSection";
+import FAQSection from "@/components/ui/FAQSection";
+import Crypto from "@/components/ui/Crypto";
+import Footer from "@/components/ui/Footer";
 
 
 export default function Home() {
@@ -58,7 +60,8 @@ export default function Home() {
       <ReviewsSection />
       <PlanCard/>
       <FAQSection/>
-      
+      <Crypto/>
+      <Footer/>
 
 
     </>
