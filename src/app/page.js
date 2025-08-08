@@ -6,6 +6,8 @@ import TrustedBySection from "@/components/ui/TrustedByContent";
 import FeaturesSection from "@/components/ui/FeaturesSection";
 import ScrollFadeHeader from "@/components/ui/ScrollFadeHeader";
 import ReviewsSection from "@/components/ui/ReviewsSection";
+import PlanCard from "@/components/ui/PlanCard";
+import FAQSection from "@/components/FAQSection";
 
 
 export default function Home() {
@@ -54,6 +56,9 @@ export default function Home() {
       <TrustedBySection />
       <FeaturesSection />
       <ReviewsSection />
+      <PlanCard/>
+      <FAQSection/>
+      
 
 
     </>
