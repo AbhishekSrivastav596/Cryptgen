@@ -1,6 +1,7 @@
 "use client";
 import { GlowingEffect } from "./glowing-effect";
 import { FaLinkedin, FaReddit, FaYoutube, FaGamepad } from "react-icons/fa";
+import WorldMap from "./world-map";
 
 export default function FeaturesSection() {
   return (
@@ -19,8 +20,8 @@ export default function FeaturesSection() {
         cutting-edge tools designed for everyone—from beginners to pros.
       </p>
 
-      <div className="mt-20 grid grid-cols-1 lg:grid-cols-5 gap-4 auto-rows-[25rem] max-w-3xl mx-auto lg:max-w-none">
-        <div className="group isolate rounded-2xl bg-neutral-900 shadow-[0_1px_1px_rgba(0,0,0,0.05),0_4px_6px_rgba(34,42,53,0.04),0_24px_68px_rgba(47,48,55,0.05),0_2px_3px_rgba(0,0,0,0.04)] overflow-hidden flex flex-col relative justify-between lg:col-span-2">
+      <div className="mt-20 grid grid-cols-1 lg:grid-cols-2 gap-8">
+        <div className="group isolate rounded-2xl bg-neutral-900 shadow-[0_1px_1px_rgba(0,0,0,0.05),0_4px_6px_rgba(34,42,53,0.04),0_24px_68px_rgba(47,48,55,0.05),0_2px_3px_rgba(0,0,0,0.04)] overflow-hidden flex flex-col relative justify-between">
           <GlowingEffect
             blur={10}
             spread={60}
@@ -30,10 +31,8 @@ export default function FeaturesSection() {
             movementDuration={2}
             glow={true}
             disabled={false}
-            className=""
           />
-
-          <div className="relative mb-50 ml-25 flex items-center justify-center h-[300px]">
+          <div className="relative flex items-center justify-center h-[300px]">
             <div className="absolute rounded-full border border-neutral-700 w-[280px] h-[280px]" />
             <div className="absolute rounded-full border border-neutral-800 w-[200px] h-[200px]" />
             <div className="absolute rounded-full border border-neutral-900 w-[120px] h-[120px]" />
@@ -63,6 +62,22 @@ export default function FeaturesSection() {
               city by ourselves.
             </p>
           </div>
+        </div>
+
+        <div className="relative rounded-2xl overflow-hidden bg-neutral-900 shadow-inner">
+          <WorldMap/>
+           <GlowingEffect
+            blur={10}
+            spread={60}
+            proximity={150}
+            inactiveZone={0.7}
+            borderWidth={5}
+            movementDuration={2}
+            glow={true}
+            disabled={false}
+          />
+
+
         </div>
       </div>
     </div>
