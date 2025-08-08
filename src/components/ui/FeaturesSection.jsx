@@ -20,7 +20,7 @@ export default function FeaturesSection() {
         cutting-edge tools designed for everyone—from beginners to pros.
       </p>
 
-      <div className="mt-20 grid grid-cols-1 lg:grid-cols-2 gap-8">
+      <div className="mt-20 grid grid-cols-1 lg:grid-cols-2 gap-4">
         <div className="group isolate rounded-2xl bg-neutral-900 shadow-[0_1px_1px_rgba(0,0,0,0.05),0_4px_6px_rgba(34,42,53,0.04),0_24px_68px_rgba(47,48,55,0.05),0_2px_3px_rgba(0,0,0,0.04)] overflow-hidden flex flex-col relative justify-between">
           <GlowingEffect
             blur={10}
