@@ -2,6 +2,7 @@
 import { GlowingEffect } from "./glowing-effect";
 import { FaLinkedin, FaReddit, FaYoutube, FaGamepad } from "react-icons/fa";
 import WorldMap from "./world-map";
+import AdoptionAndTestimonial from "./AdoptionAndTestimonial";
 
 export default function FeaturesSection() {
   return (
@@ -79,6 +80,12 @@ export default function FeaturesSection() {
 
 
         </div>
+        <div className="lg:col-span-2">
+          <AdoptionAndTestimonial />
+          
+        </div>
+
+     
       </div>
     </div>
   );
